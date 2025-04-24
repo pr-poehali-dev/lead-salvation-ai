@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <div className="pt-28 pb-16 bg-gradient-to-b from-purple-light/50 to-white">
+    <div className="pt-28 pb-16 bg-gradient-to-b from-cyan-light/50 to-white">
       <div className="container">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/2">
@@ -15,10 +15,10 @@ const HeroSection = () => {
               Увеличение конверсии в сделку на 6-13%.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-brand-primary hover:bg-brand-secondary text-lg">
+              <Button size="lg" className="bg-brand-primary hover:bg-brand-primary/90 text-lg">
                 Начать бесплатно
               </Button>
-              <Button size="lg" variant="outline" className="border-brand-primary text-brand-primary hover:bg-brand-primary/10 text-lg">
+              <Button size="lg" variant="outline" className="border-brand-secondary text-brand-secondary hover:bg-brand-secondary/10 text-lg">
                 Узнать больше
               </Button>
             </div>
@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 relative">
             <div className="bg-white p-6 rounded-xl shadow-lg max-w-md mx-auto">
               <div className="flex items-start mb-4 gap-3">
-                <div className="bg-purple-light rounded-full p-2">
+                <div className="bg-cyan-light rounded-full p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -44,7 +44,7 @@ const HeroSection = () => {
                     <path d="M10 22h4" />
                   </svg>
                 </div>
-                <div className="bg-purple-light/30 rounded-lg p-3 flex-1">
+                <div className="bg-cyan-light/30 rounded-lg p-3 flex-1">
                   <p className="font-medium">Здравствуйте! Я помощник Службы спасения лидов.</p>
                   <p className="text-sm text-gray-600 mt-1">
                     Заметил, что вы интересовались нашим предложением, но не завершили сделку. Могу ли я узнать, что помешало?
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="bg-purple-light rounded-full p-2">
+                <div className="bg-cyan-light rounded-full p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -75,7 +75,7 @@ const HeroSection = () => {
                     <path d="M10 22h4" />
                   </svg>
                 </div>
-                <div className="bg-purple-light/30 rounded-lg p-3 flex-1">
+                <div className="bg-cyan-light/30 rounded-lg p-3 flex-1">
                   <p className="text-sm">
                     Понимаю ваши сомнения. Наше решение окупается с первой заключенной сделки, 
                     и мы можем предложить персональные условия. Могу организовать демонстрацию 
@@ -85,7 +85,7 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="absolute -z-10 -right-4 -top-4 w-full h-full bg-brand-primary/20 rounded-xl"></div>
-            <div className="absolute -z-10 right-4 top-4 w-full h-full bg-brand-accent/50 rounded-xl"></div>
+            <div className="absolute -z-10 right-4 top-4 w-full h-full bg-brand-secondary/30 rounded-xl"></div>
           </div>
         </div>
       </div>

@@ -97,7 +97,7 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
               <CardHeader>
-                <div className="bg-purple-light/30 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                <div className="bg-cyan-light/30 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
                   {feature.icon}
                 </div>
                 <CardTitle>{feature.title}</CardTitle>
@@ -111,7 +111,7 @@ const FeaturesSection = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-brand-primary/10 to-brand-accent/20 rounded-2xl p-8 md:p-12">
+        <div className="bg-gradient-to-r from-brand-primary/10 to-brand-secondary/20 rounded-2xl p-8 md:p-12">
           <div className="grid md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">

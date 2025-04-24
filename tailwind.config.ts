@@ -62,15 +62,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				purple: {
-					DEFAULT: '#9b87f5',
-					dark: '#6E59A5',
-					light: '#E5DEFF',
+				cyan: {
+					DEFAULT: '#00B7C2',
+					light: '#80dbe0',
+					dark: '#009da7',
+				},
+				blue: {
+					DEFAULT: '#005CA8',
+					light: '#80aed3',
+					dark: '#004d8d',
 				},
 				brand: {
-					primary: '#9b87f5',
-					secondary: '#7E69AB',
-					accent: '#D6BCFA',
+					primary: '#00B7C2',
+					secondary: '#005CA8',
+					accent: '#80dbe0',
 				}
 			},
 			borderRadius: {
